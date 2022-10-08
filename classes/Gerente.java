@@ -1,4 +1,4 @@
-package bil.classes;
+package classes;
 
 /*
  * Herda todas as caracteristicas da classe Funcionario
