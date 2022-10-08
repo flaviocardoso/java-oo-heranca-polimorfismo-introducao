@@ -9,3 +9,7 @@ Relembrando conceitos de Herança e Polimorfismo.
 ## Idéia de Herança
 * Uma classe pode ter várias filhas, mas apenas uma mãe.
 * Dado uma instância de uma classe podemos chamar qualquer método público que tenha sido declarado na classe mãe.
+* Classe mãe pode ser chamada de super ou base class.
+* Classe filha pode ser chamada de sub class.
+
+* Podemos ter acesso a atribulos ou métodos através da palavra chave super que acessa a classe mãe, não podemos utilizar o this.
