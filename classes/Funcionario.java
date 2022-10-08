@@ -1,4 +1,4 @@
-package bil.classes;
+package classes;
 
 public class Funcionario {
 	private String nome;
