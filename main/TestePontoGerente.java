@@ -1,6 +1,6 @@
 package main;
 
-import bil.classes.Gerente;
+import classes.Gerente;
 
 public class TestePontoGerente {
 	public static void main (String[] args) {
