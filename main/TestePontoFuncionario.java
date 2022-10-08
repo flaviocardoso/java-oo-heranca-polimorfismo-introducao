@@ -1,6 +1,6 @@
 package main;
 
-import bil.classes.Funcionario;
+import classes.Funcionario;
 
 public class TestePontoFuncionario {
 	public static void main (String[] args) {
