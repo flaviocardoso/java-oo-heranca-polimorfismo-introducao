@@ -5,7 +5,7 @@ Relembrando conceitos de Herança e Polimorfismo.
 ## Visibidade
 * private - tem menor visilibidade. Somente sendo acessado na própria classe.
 * protected - tem uma função parecida com a private mas pode ser acessada pelas classes filhas. (Relacionado a herança de classes)
-* public - visível em todo lugar lugar.
+* public - visível em todo lugar.
 <p></p>
 
 ## Idéia de Herança
