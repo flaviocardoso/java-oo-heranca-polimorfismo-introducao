@@ -9,7 +9,7 @@ Relembrando conceitos de Herança e Polimorfismo.
 <p></p>
 
 ## Idéia de Herança
-* Uma classe pode ter várias filhas, mas apenas uma mãe.
+* Uma classe pode ter várias filhas, mas apenas uma mãe (herança simples).
 * Dado uma instância de uma classe podemos chamar qualquer método público que tenha sido declarado na classe mãe.
 * Classe mãe pode ser chamada de super ou base class.
 * Classe filha pode ser chamada de sub class.
@@ -51,4 +51,8 @@ public abstract double getBonificacao();
 ```
 * Classes abstratas justamente por estar liga a reutilização de código e poliformorfismo que é usada em herança, conforme ao primeiro e segundo tópico.
 * Não podem ser instanciadas.
+
+### Interfaces
+* Interface é um contrato que é diferente de herança e pode ser implementado mais de uma vez em uma classe. Pode parecer uma classe abstrata, todos os métodos abstratos, mas não pode conter nada concreto no interior, como atributos e implementações de métodos. Além de que a classe abstrata não pode ter mais de uma implementação na classe filha. O uso de interfaces pode ter repetição de código, então devemos ter cuidado ao pensar como usar a implementação para resultar em usa funcionalidade que faça sentido para a nossa classe, afim de não ocasionar repetição.
+* Tanto como classes abstratas tanto como interfaces não podem ser instanciadas.
 
