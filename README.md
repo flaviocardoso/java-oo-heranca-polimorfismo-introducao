@@ -20,7 +20,7 @@ Relembrando conceitos de Herança e Polimorfismo.
 * Polimorfismo - O tipo de referência de classes mais genérica que referenciam objectos mais específicos. Pode ser uso de classes genérica, com a super class, ou a utilização de interfaces.
 
 <blockquote>
-  <p>Objetos não mudam de tipo, mas a referência pode mudar. O polimorfismo permite usar referências mais genéricas para a comunicação com um objeto.</p>
+  <p>Objetos não mudam de tipo, mas a referência pode mudar. O polimorfismo permite usar referências mais genéricas para a comunicação com um objeto.
   <br>O Uso de referências mais genéricas permite desacoplar sistemas.</p>
   <p>Quando criamos nosso próprio construtor, o contrustor default deixa de existir, se quiser pode adicionar manualmente um contrutor default explicitamente.
 </blockquote>
