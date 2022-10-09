@@ -2,7 +2,7 @@ package classes.conta.abstrato;
 
 public class ContaPoupanca extends Conta {
 	
-	private double taxa = 0.2;
+	private double taxa = 0.002;
 	
 	public ContaPoupanca(int agencia, int numero) {
 		super(agencia, numero);
@@ -17,7 +17,7 @@ public class ContaPoupanca extends Conta {
 	// usado como exemplo
 	@Override
 	public void depositar(double valor) {
-		super.saldo += valor - this.taxa; 
+		super.saldo += valor - ( this.taxa * valor ); 
 		
 	}
 }
