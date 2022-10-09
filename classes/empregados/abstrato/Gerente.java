@@ -8,18 +8,21 @@ import classes.empregados.Bonificacao;
  * Gerente também é um Funcionario
  * Isso gera a reutilização de código.
  * */
-public class Gerente extends Funcionario implements Bonificacao {
-	private int senha;
+public class Gerente extends Funcionario implements Autenticavel, Bonificacao {
+	private AutenticacaoUtil util;
 	
-	public void setSenha(int senha) {
-		this.senha = senha;
+	public Gerente() {
+		this.util = new AutenticacaoUtil();
 	}
 	
+	@Override
+	public void setSenha(int senha) {
+		this.util.setSenha(senha);
+	}
+
+	@Override
 	public boolean autentica(int senha) {
-		if (this.senha == senha) {
-			return true;
-		}
-		return false;
+		return this.util.autentica(senha);
 	}
 	
 	// reescrita da classe pai.
