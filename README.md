@@ -16,3 +16,4 @@ Relembrando conceitos de Herança e Polimorfismo.
 
 ## Princípios da Herança
 * Reutilização de código.
+* Polimorfismo - O tipo de objeto é o mesmo e a referência é diferente. Pode ser uso de classes genêrica, com a super class, ou a utilização de interfaces.
