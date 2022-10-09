@@ -30,3 +30,25 @@ Relembrando conceitos de Herança e Polimorfismo.
   <p>Quando criamos nosso próprio construtor, o contrustor default deixa de existir, se quiser pode adicionar manualmente um contrutor default explicitamente.
   <p>A anotacação @Override, mostra erros quando não aparece a mesmo método na classe superior, indicando que o método foi alterado na sintaxe.</p>
 </blockquote>
+
+### Classes Abstratas
+* Classes abstratas representa um conceito que serve para ser aplicado pelas classes filhas concretas, que sim podem ser instânciadas. Ela nos permite o poliformismo, pois deixa usar a refêrencia da classe.
+```
+public abstract class Funcionario {
+  private double salario;
+  
+  public Funcionario() {}
+  
+  private double getSalario() {
+    return this.salario;
+   }
+}
+```
+* Classes abstratas podem possuir métodos concretos e atributos, com o polimorfismo nos ajuda na reutilização de código. Métodos abstratos devem ser implementados nas classes filhas, por justamente pelo uso da herança, e se não causa um erro na sintaxe. Eles não tem corpo ou implementação e sim uma assinatura (visibilidade, returno , nome do método e parâmetros.
+* Quando uma classe tem métodos abstrados deve ser tornar abstrata. Não pode invocar diferamente os métodos abstratos da classe abstrata nas classes filhas, pois elas não tem implementacão.
+```
+public abstract double getBonificacao();
+```
+* Classes abstratas justamente por estar liga a reutilização de código e poliformorfismo que é usada em herança, conforme ao primeiro e segundo tópico.
+* Não podem ser instanciadas.
+
