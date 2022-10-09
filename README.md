@@ -54,6 +54,6 @@ public abstract double getBonificacao();
 
 ### Interfaces
 * Interface é um contrato que é diferente de herança e pode ser implementado mais de uma vez em uma classe. Pode parecer uma classe abstrata, todos os métodos abstratos, mas não pode conter nada concreto no interior, como atributos e implementações de métodos. Além de que a classe abstrata não pode ter mais de uma implementação na classe filha. O uso de interfaces pode ter repetição de código, então devemos ter cuidado ao pensar como usar a implementação para resultar em usa funcionalidade que faça sentido para a nossa classe, afim de não ocasionar repetição.
-* No caso de repetição, podemos fazer o uso de <em>composição</em> e manter o código de funcionalidades da interface implementada em uma classe util a essas classes que fazem uso dela.
+* No caso de repetição, podemos fazer o uso de <b>composição</b> e manter o código de funcionalidades da interface implementada em uma classe util a essas classes que fazem uso dela, possibilitando a reutilização de código.
 * Tanto como classes abstratas tanto como interfaces não podem ser instanciadas.
 
