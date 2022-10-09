@@ -21,6 +21,6 @@ Relembrando conceitos de Herança e Polimorfismo.
 
 <blockquote>
   <p>Objetos não mudam de tipo, mas a referência pode mudar. O polimorfismo permite usar referências mais genéricas para a comunicação com um objeto.</p>
-  <p>O Uso de referências mais genéricas permite desacoplar sistemas.</p>
+  <br>O Uso de referências mais genéricas permite desacoplar sistemas.</p>
   <p>Quando criamos nosso próprio construtor, o contrustor default deixa de existir, se quiser pode adicionar manualmente um contrutor default explicitamente.
 </blockquote>
