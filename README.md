@@ -13,6 +13,7 @@ Relembrando conceitos de Herança e Polimorfismo.
 * Classe filha pode ser chamada de sub class.
 
 * Podemos ter acesso a atribulos ou métodos através da palavra chave super que acessa a classe mãe, não podemos utilizar o this.
+* Não recebemos os contrutores.
 
 ## Princípios da Herança
 * Reutilização de código.
