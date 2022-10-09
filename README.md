@@ -17,3 +17,6 @@ Relembrando conceitos de Herança e Polimorfismo.
 ## Princípios da Herança
 * Reutilização de código.
 * Polimorfismo - O tipo de referência de classes mais genérica que referenciam objectos mais específicos. Pode ser uso de classes genérica, com a super class, ou a utilização de interfaces.
+
+Objetos não mudam de tipo, mas a referência pode mudar. O polimorfismo permite usar referências mais genéricas para a comunicação com um objeto.
+O Uso de referências mais genéricas permite desacoplar sistemas.
