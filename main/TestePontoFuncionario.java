@@ -1,6 +1,6 @@
 package main;
 
-import classes.Funcionario;
+import classes.empregados.Funcionario;
 
 public class TestePontoFuncionario {
 	public static void main (String[] args) {

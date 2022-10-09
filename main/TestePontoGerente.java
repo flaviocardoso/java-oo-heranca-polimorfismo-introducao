@@ -1,6 +1,6 @@
 package main;
 
-import classes.Gerente;
+import classes.empregados.Gerente;
 
 public class TestePontoGerente {
 	public static void main (String[] args) {
@@ -23,5 +23,6 @@ public class TestePontoGerente {
 		autentica = ger0.autentica(2233);
 		
 		System.out.println(autentica);
+		System.out.println(ger0.getBonificacao());
 	}
 }
