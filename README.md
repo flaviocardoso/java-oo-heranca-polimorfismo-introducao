@@ -57,3 +57,57 @@ public abstract double getBonificacao();
 * No caso de repetição, podemos fazer o uso de <b>composição</b> e manter o código de funcionalidades da interface implementada em uma classe util a essas classes que fazem uso dela, possibilitando a reutilização de código.
 * Tanto como classes abstratas tanto como interfaces não podem ser instanciadas.
 
+### Anotaçoes em Java
+* Podesse definifir metadados dentro de classes, e um forma configuração.
+* com '@' em o nome da anotação. 
+* Tipos de anotações são: marcadoras, valor único e completas.
+* Marcadoras, não possuem membros, são identificados pela nome e sem dados adicionais. Exemplo: <b>@Test</b> do Junit.
+* Valor único, parecida com as marcadoras, possuem um único membro, no qual é chamado o valor. São representadas com a anotacão e valor. Exemplo, <b>@displayName("Nome")</b>.
+* Completas, possuem muitos membros separados por vírgula. <b>@Version(local=0.1,web=3.0)</b>.
+
+<p>* Anotação marcador</p>
+
+```
+
+@interface Marcar {
+  
+}
+
+```
+
+<p>* Anotação</p>
+
+```
+
+@interface Pessoa_dados {
+  String nome();
+  String endereco();
+}
+
+```
+
+<p> Chamando a anotação<p>
+
+```
+@Pessoas_dados(nome="Flavio Cardos", endero="Brasil")
+```
+
+<p>* Por default</p>
+
+```
+
+@interface Pessoa_dados {
+  String nome() default "Insira o nome";
+  String endereco() default "Insira o endereco";
+}
+
+```
+
+<p>Chamando a anotação</p>
+
+```
+
+@Pessoas_dados
+
+```
+
