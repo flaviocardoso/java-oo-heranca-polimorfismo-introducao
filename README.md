@@ -3,9 +3,12 @@ Relembrando conceitos de Herança e Polimorfismo.
 <p></p>
 
 ## Visibidade
-* private - tem menor visilibidade. Somente sendo acessado na própria classe.
-* protected - tem uma função parecida com a private mas pode ser acessada pelas classes filhas. (Relacionado a herança de classes)
-* public - visível em todo lugar.
+* (+) public : Estes atributos e métodos são sempre acessíveis em todos os métodos de todas as classes. Este é o nível menos rígido de encapsulamento, que equivale a não encapsular. 
+
+* (-) private : Estes atributos e métodos são acessíveis somente nos métodos (todos) da própria classe. Este é o nível mais rígido de encapsulamento. 
+
+* (#) protected : Estes atributos e métodos são acessíveis no pacote, nos métodos da própria classe e suas subclasses, o que será visto em Herança. 
+
 <p></p>
 
 ## Idéia de Herança
